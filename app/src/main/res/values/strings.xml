@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Comedor Shalom</string>
+    <string name="general">Comida a la vista, para llevar y a domicilio, además ofrecemos variedad de pupusas</string>
+
+    <string name="usuarioP">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ1234567890</string>
+
+    <!-- Fragmentos SOBRE NOSOTROS -->
+    <string name="mision">Satisfacer las necesidades gastronómicas de nuestros clientes, ofreciendo alimentos y servicios con la más alta calidad, donde se sobrepasen las expectativas de nuestros clientes y ser un espacio de trabajo que permita la realización personal y el desarrollo de sus colaboradores en el grupo.</string>
+    <string name="vision">Convertirnos en una cadena de restaurantes de comida rápida, donde nuestros clientes nos sigan prefiriendo por la excelencia en el servicio, la calidad y el sabor, en un ambiente amigable y placentero, apoyados con un personal altamente calificado.</string>
+    <string name="contactos">WhatsApp: +503 7509 5546\nTeléfono: 2357 2236\nEmail: comedor.shalom27@gmail.com</string>
+    <string name="horario">de luneas a sábado\nde 6:30 am a 3:00 pm</string>
+
+    <!-- Fragmentos PAN DE VIDA -->
+    <string name="versiculo2">Jehová peleará por vosotros, y vosotros estaréis tranquilos.</string>
+    <string name="versiculo3">Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.</string>
+    <string name="versiculo4">Así que, arrepentíos y convertíos, para que sean borrados vuestros pecados; para que vengan de la presencia del Señor tiempos de refrigerio,</string>
+    <string name="versiculo5">No paguéis a nadie mal por mal; procurad lo bueno delante de todos los hombres.</string>
+    <string name="versiculo6">Todo lo puedo en Cristo que me fortalece.</string>
+    <string name="libro2">Éxodo 14:14</string>
+    <string name="libro3">Jeremias 33:3</string>
+    <string name="libro4">Hechos 3:19</string>
+    <string name="libro5">Romanos 12:17</string>
+    <string name="libro6">Filipenses 4:13</string>
+
+    <!-- Diálogo login -->
+    <string name="action_save">Guardar</string>
+    <string name="title_activity_detail">Nueva Oportunidad</string>
+
+    <!-- Strings de diálogo personalizado -->
+    <string name="info_text">Necesitas tener creada una cuenta para hacer tus pedidos desde la aplicación</string>
+    <string name="crear_boton">CREAR CUENTA</string>
+    <string name="nombre_input">Nombre</string>
+    <string name="contrasena_input">Constraseña</string>
+    <string name="recordar_check">Recordarme</string>
+    <string name="olvidar_text">¿Olvidaste tu Contraseña?</string>
+    <string name="entrar_boton">ENTRAR</string>
+    <string name="cliente_label">Cliente</string>
+    <string name="producto_label">Producto</string>
+    <string name="fecha_label">Fecha</string>
+    <string name="prioridad_label">Prioridad</string>
+    <string name="notas_label">Notas</string>
+    <string name="notas_hint">Notas</string>
+    <string-array name="clientes">
+        <item>Fernando Jimenez</item>
+        <item>Carlos Fuentes</item>
+        <item>Pedro Lopez</item>
+    </string-array>
+    <string-array name="productos">
+        <item>Seguro A</item>
+        <item>Seguro B</item>
+        <item>Seguro C</item>
+    </string-array>
+    <string-array name="prioridades">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <!-- Acerca De -->
+    <string name="acercaDeLink">moicatechnologies.dx.am/Shalom/Cl/</string>
+    <string name="acercaDeEmail">comedor.shalom27@gmail.com</string>
+    <string name="acercaDeInf1">© Moica Technologies, 2018</string>
+    <string name="acercaDeInf2">All rights reserved</string>
+    <string name="acercaDeVersion">Version 1.0.0</string>
+</resources>

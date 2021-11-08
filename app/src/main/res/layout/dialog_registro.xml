@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_body">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="-2dp"
+                        android:background="@drawable/btndesign_menu"
+                        android:src="@drawable/ic_arrow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Registrate"
+                        android:textColor="#A9000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="48dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="en Comedor Shalom"
+                            android:textColor="#86000000"
+                            android:textSize="15dp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Datos Personales"
+                            android:layout_marginTop="15dp"
+                            android:textColor="#3A3A3A"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#C8C9CB" />
+
+                        <EditText
+                            android:id="@+id/etNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/normal_padding"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Nombre *"
+                            android:inputType="textPersonName"
+                            android:windowSoftInputMode="stateVisible"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <EditText
+                            android:id="@+id/etApellido"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/normal_padding"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Apellido *"
+                            android:inputType="textPersonName"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <EditText
+                            android:id="@+id/etCel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/normal_padding"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Número de celular *"
+                            android:inputType="number"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <EditText
+                            android:id="@+id/etDireccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/normal_padding"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Dirección *"
+                            android:inputType="text"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <EditText
+                            android:id="@+id/etEdad"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/normal_padding"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Edad *"
+                            android:inputType="number"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Datos de Usuario"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#3A3A3A"
+                            android:textSize="16dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="#C8C9CB" />
+
+                        <EditText
+                            android:id="@+id/etUsuarioR"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/divider"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/edit_text_border"
+                            android:ems="10"
+                            android:hint="Usuario *"
+                            android:inputType="textPersonName"
+                            android:padding="@dimen/edit_text_padding"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"
+                            android:layout_marginBottom="15dp"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/etContraseñaR"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginTop="@dimen/normal_padding"
+                                android:background="@drawable/edit_text_border"
+                                android:ems="10"
+                                android:hint="Contraseña *"
+                                android:inputType="textPassword"
+                                android:padding="@dimen/edit_text_padding"
+                                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            <CheckBox
+                                android:id="@+id/check_mostrarR"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:checked="false"
+                                android:onClick="showPasswordR" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="30dp"
+                            android:text="* Campos obligatorios"
+                            android:textColor="#86000000"
+                            android:textSize="12dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#1BFF5722"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="30dp"
+                            android:padding="30dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Ventajas de la cuenta..."
+                                android:textColor="#DD4110"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FF5722"
+                                    android:src="@drawable/ic_ventajas1" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Acceder facilmente a la aplicación."
+                                    android:textColor="#000000"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FF5722"
+                                    android:src="@drawable/ic_ventajas2" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Realiza tus pedidos desde la aplicación."
+                                    android:textColor="#000000"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#00FF5722"
+                                    android:src="@drawable/ic_ventajas3" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Ver tus pedidos realizados."
+                                    android:textColor="#000000"
+                                    android:textSize="12dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:layout_weight="7"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnRegistrarse"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btndesign_login"
+                    android:text="Registrarse"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btnCrearCuenta"
+                android:background="#C8C9CB" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

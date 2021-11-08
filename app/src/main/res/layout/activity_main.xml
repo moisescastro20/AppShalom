@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgprincipal_fondo"
+    tools:context=".PrincipalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="8"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#BF083750"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:id="@+id/ivLogin"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/ic_person" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_logo"
+                        android:src="@drawable/imglogoc" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:text="Hola..."
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.1"
+                        android:background="@drawable/design_fondo2"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="12"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingTop="30dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="20dp"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_weight="1.9"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actMenuDelDia"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_restaurant" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="MENÚ DEL DÍA"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="2"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actGastronomia"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:background="@drawable/btndesign_options"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_whatshot" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="GASTRONOMIA"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="2"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actSobreNosotros"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:background="@drawable/btndesign_options"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_star" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="SOBRE NOSOTROS"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="2"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actPanDeVida"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:background="@drawable/btndesign_options"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_flare" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="PAN DE VIDA"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="2"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actUbicacion"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:background="@drawable/btndesign_options"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_pin_drop" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="UBICACIÓN"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_weight="2"
+                                android:background="@drawable/btndesign"
+                                android:gravity="center_vertical"
+                                android:onClick="actContactanos"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3.5"
+                                    android:background="@drawable/btndesign_options"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/ic_contact_mail" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_weight="1.5"
+                                    android:text="CONTÁCTANOS"
+                                    android:textColor="#AE02121B"
+                                    android:textSize="14dp"
+                                    android:textStyle="bold" />
+
+                                <ImageView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="4"
+                                    android:src="@drawable/ic_go" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="8.8"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="15"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4"
+                                android:src="@drawable/imglogo" />
+
+                            <TextView
+                                android:id="@+id/tvMarquee"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="3"
+                                android:ellipsize="marquee"
+                                android:focusable="false"
+                                android:gravity="center_vertical"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="@string/general"
+                                android:textColor="#02121B"
+                                android:textSize="15dp" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_weight="4"
+                                android:background="@drawable/btndesign_secundarios"
+                                android:gravity="center"
+                                android:onClick="actContactanos"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_settings" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0.3dp"
+                                android:layout_height="match_parent"
+                                android:background="#FFFFFF" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_weight="4"
+                                android:background="@drawable/btndesign_secundarios"
+                                android:gravity="center"
+                                android:onClick="actAcercaDe"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_help" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
